@@ -2,27 +2,33 @@
   <img src="./img.png" alt="Project Banner" width="100%">
 </p>
 
-# [Project Name] 🎯
+# [HER MIND] 🎯
 
 ## Basic Details
 
-### Team Name: [Name]
+### Team Name: [HACKTECH]
 
 ### Team Members
-- Member 1: [ANNAPOORNA] - [College]
-- Member 2: [Name] - [College]
+- Member 1: [ANNAPOORNA V V] - [MAR ATHANASIUS COLLEGE OF ENGINEERING]
+- Member 2: [SREYAKRISHNA A V] - [MAR ATHANASIUS COLLEGE OF ENGINEERING]
 
 ### Hosted Project Link
 [mention your project hosted link here]
 
 ### Project Description
-[2-3 lines about what your project does]
+[Track their mood and menstrual cycles.
+Maintain a private journal to reflect on thoughts and emotions.
+Receive guidance and self-care prompts.]
 
 ### The Problem statement
-[What problem are you solving?]
+[Women often face unique mental health challenges, including stress, mood fluctuations, and the emotional impact of menstrual cycles. While many digital tools exist, few offer a safe and personalized space to track moods, record thoughts, and monitor cycles in a single platform.]
 
 ### The Solution
-[How are you solving it?]
+[To address the mental health and emotional well-being challenges faced by women, we propose a Women’s Mental Health Companion Web App that provides a personalized, safe, and interactive space for self-care. The application allows users to:
+1.Track menstrual cycles and cycle phases, helping them understand hormonal and emotional patterns.
+2.Monitor moods daily to recognize trends and triggers.
+3.Maintain a private journal for reflecting thoughts, emotions, and experiences.
+4.Receive supportive guidance and AI-based conversational prompts for emotional reassurance and self-care tips.]
 
 ---
 
@@ -31,10 +37,8 @@
 ### Technologies/Components Used
 
 **For Software:**
-- Languages used: [e.g., JavaScript, Python, Java]
-- Frameworks used: [e.g., React, Django, Spring Boot]
-- Libraries used: [e.g., axios, pandas, JUnit]
-- Tools used: [e.g., VS Code, Git, Docker]
+- Languages used: [e.g., JavaScript, HTML, CSS,Local Storage]
+- Tools used: [e.g., VS Code,]
 
 **For Hardware:**
 - Main components: [List main components]
@@ -46,10 +50,10 @@
 ## Features
 
 List the key features of your project:
-- Feature 1: [Description]
-- Feature 2: [Description]
-- Feature 3: [Description]
-- Feature 4: [Description]
+- Feature 1: [Track menstrual cycles and cycle phases, helping them understand hormonal and emotional patterns.]
+- Feature 2: [Monitor moods daily to recognize trends and triggers.]
+- Feature 3: [Maintain a private journal for reflecting thoughts, emotions, and experiences.]
+- Feature 4: [Receive supportive guidance and AI-based conversational prompts for emotional reassurance and self-care tips.]
 
 ---
 
