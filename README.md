@@ -13,7 +13,7 @@
 - Member 2: [SREYAKRISHNA A V] - [MAR ATHANASIUS COLLEGE OF ENGINEERING]
 
 ### Hosted Project Link
-[mention your project hosted link here]
+[https://annapoorna-165.github.io/hacktech/]
 ### Github link
   [https://github.com/annapoorna-165/hacktech]
 ### Project Description
@@ -88,7 +88,7 @@ List the key features of your project:
 
 #### Screenshots (Add at least 3)
 
-![Screenshot1](Add screenshot 1 here with proper name)
+![](Add screenshot 1 here with proper name)
 *Add caption explaining what this shows*
 
 ![Screenshot2](Add screenshot 2 here with proper name)
