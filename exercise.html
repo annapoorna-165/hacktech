@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Light Exercises for Health</title>
+<style>
+    body {
+        font-family: 'Segoe UI', sans-serif;
+        background: linear-gradient(to bottom, #ffe6f0, #fff0f7);
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+    header {
+        padding: 20px;
+        background-color: #ffccd5;
+        color: #4d0033;
+        font-size: 2em;
+        font-weight: bold;
+    }
+    .exercise-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 20px;
+        padding: 30px;
+        max-width: 1400px;
+        margin: auto;
+    }
+    .exercise {
+        background-color: white;
+        border-radius: 15px;
+        padding: 15px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        transition: transform 0.2s;
+        position: relative;
+    }
+    .exercise:hover {
+        transform: scale(1.05);
+    }
+    .exercise h3 {
+        color: #ff4d94;
+    }
+    .exercise iframe {
+        width: 100%;
+        height: 200px;
+        border-radius: 10px;
+        border: none;
+    }
+    button {
+        padding: 8px 15px;
+        border: none;
+        border-radius: 8px;
+        background-color: #ff4d94;
+        color: white;
+        cursor: pointer;
+        margin-top: 10px;
+        font-weight: bold;
+    }
+    button:hover {
+        background-color: #ff3380;
+    }
+    .timer {
+        margin-top: 10px;
+        font-weight: bold;
+        color: #4d0033;
+    }
+    footer {
+        padding: 20px;
+        background-color: #ffccd5;
+        color: #4d0033;
+    }
+    .progress {
+        margin-top: 10px;
+        font-weight: bold;
+        color: #008000;
+    }
+</style>
+</head>
+<body>
+<header>Light Exercises for Health</header>
+
+<div class="exercise-container">
+    <!-- Exercise 1 -->
+    <div class="exercise" data-exercise="0">
+        <h3>Morning Stretch Routine</h3>
+        <iframe src="https://www.youtube.com/embed/2L2lnxIcNmo" allowfullscreen></iframe>
+        <p>Gentle 10-min stretch to wake up your body.</p>
+        <button onclick="startTimer(this, 600)">Start 10-min Timer</button>
+        <div class="timer">Time left: 10:00</div>
+        <div class="progress">Not completed</div>
+    </div>
+    <!-- Exercise 2 -->
+    <div class="exercise" data-exercise="1">
+        <h3>Low Impact Cardio</h3>
+        <iframe src="https://www.youtube.com/embed/vT1JzLTH4G4" allowfullscreen></iframe>
+        <p>Easy cardio exercises for beginners.</p>
+        <button onclick="startTimer(this, 900)">Start 15-min Timer</button>
+        <div class="timer">Time left: 15:00</div>
+        <div class="progress">Not completed</div>
+    </div>
+    <!-- Exercise 3 -->
+    <div class="exercise" data-exercise="2">
+        <h3>Desk Yoga</h3>
+        <iframe src="https://www.youtube.com/embed/7kgZnJqzNaU" allowfullscreen></iframe>
+        <p>Quick yoga for your desk to reduce tension.</p>
+        <button onclick="startTimer(this, 300)">Start 5-min Timer</button>
+        <div class="timer">Time left: 5:00</div>
+        <div class="progress">Not completed</div>
+    </div>
+    <!-- Exercise 4 -->
+    <div class="exercise" data-exercise="3">
+        <h3>Evening Relaxation Stretch</h3>
+        <iframe src="https://www.youtube.com/embed/8oF2G-Kh1o0" allowfullscreen></iframe>
+        <p>Wind down with 8-min relaxing stretches.</p>
+        <button onclick="startTimer(this, 480)">Start 8-min Timer</button>
+        <div class="timer">Time left: 8:00</div>
+        <div class="progress">Not completed</div>
+    </div>
+    <!-- Exercise 5 -->
+    <div class="exercise" data-exercise="4">
+        <h3>Full Body Stretch</h3>
+        <iframe src="https://www.youtube.com/embed/gC_L9qAHVJ8" allowfullscreen></iframe>
+        <p>10-min full body stretch for flexibility.</p>
+        <button onclick="startTimer(this, 600)">Start 10-min Timer</button>
+        <div class="timer">Time left: 10:00</div>
+        <div class="progress">Not completed</div>
+    </div>
+    <!-- Exercise 6 -->
+    <div class="exercise" data-exercise="5">
+        <h3>Chair Exercises</h3>
+        <iframe src="https://www.youtube.com/embed/pIozrs8aF9s" allowfullscreen></iframe>
+        <p>5-min chair exercises to stay active indoors.</p>
+        <button onclick="startTimer(this, 300)">Start 5-min Timer</button>
+        <div class="timer">Time left: 5:00</div>
+        <div class="progress">Not completed</div>
+    </div>
+    <!-- Exercise 7 -->
+    <div class="exercise" data-exercise="6">
+        <h3>Balance & Stability</h3>
+        <iframe src="https://www.youtube.com/embed/lRru36lY5l8" allowfullscreen></iframe>
+        <p>7-min exercises to improve balance and stability.</p>
+        <button onclick="startTimer(this, 420)">Start 7-min Timer</button>
+        <div class="timer">Time left: 7:00</div>
+        <div class="progress">Not completed</div>
+    </div>
+    <!-- Exercise 8 -->
+    <div class="exercise" data-exercise="7">
+        <h3>Breathing Exercises</h3>
+        <iframe src="https://www.youtube.com/embed/SEfs5TJZ6Nk" allowfullscreen></iframe>
+        <p>5-min deep breathing to reduce stress.</p>
+        <button onclick="startTimer(this, 300)">Start 5-min Timer</button>
+        <div class="timer">Time left: 5:00</div>
+        <div class="progress">Not completed</div>
+    </div>
+    <!-- Exercise 9 -->
+    <div class="exercise" data-exercise="8">
+        <h3>Gentle Pilates</h3>
+        <iframe src="https://www.youtube.com/embed/lCg_gh_fppI" allowfullscreen></iframe>
+        <p>10-min light pilates for core strength.</p>
+        <button onclick="startTimer(this, 600)">Start 10-min Timer</button>
+        <div class="timer">Time left: 10:00</div>
+        <div class="progress">Not completed</div>
+    </div>
+    <!-- Exercise 10 -->
+    <div class="exercise" data-exercise="9">
+        <h3>Evening Wind Down Yoga</h3>
+        <iframe src="https://www.youtube.com/embed/v7AYKMP6rOE" allowfullscreen></iframe>
+        <p>8-min gentle yoga to relax before sleep.</p>
+        <button onclick="startTimer(this, 480)">Start 8-min Timer</button>
+        <div class="timer">Time left: 8:00</div>
+        <div class="progress">Not completed</div>
+    </div>
+</div>
+
+<footer>Stay Active, Stay Healthy 💪</footer>
+
+<script>
+let timers = {};
+
+function startTimer(button, seconds) {
+    let exerciseDiv = button.parentElement;
+    let timerDisplay = exerciseDiv.querySelector('.timer');
+    let progress = exerciseDiv.querySelector('.progress');
+    let exerciseId = exerciseDiv.getAttribute('data-exercise');
+
+    if (timers[exerciseId]) clearInterval(timers[exerciseId]);
+
+    let timeLeft = seconds;
+    timerDisplay.textContent = `Time left: ${formatTime(timeLeft)}`;
+
+    timers[exerciseId] = setInterval(() => {
+        timeLeft--;
+        timerDisplay.textContent = `Time left: ${formatTime(timeLeft)}`;
+        if (timeLeft <= 0) {
+            clearInterval(timers[exerciseId]);
+            timerDisplay.textContent = "Done!";
+            progress.textContent = "Completed ✅";
+        }
+    }, 1000);
+}
+
+function formatTime(seconds) {
+    let min = Math.floor(seconds / 60);
+    let sec = seconds % 60;
+    return `${min}:${sec.toString().padStart(2,'0')}`;
+}
+</script>
+</body>
+</html>
